@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CE Course Notebooks</title>
+<style>
+  html, body { margin: 0; padding: 0; }
+  body { font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif; color: #1f2d2a; padding: 4px 2px; }
+  .ce-crumb { font-size: 22px; font-weight: 700; color: #2f6a5c; margin: 0 0 18px 0; }
+  .ce-crumb span.sep { color: #8fa8a1; font-weight: 400; margin: 0 6px; }
+
+  .ce-section-bar {
+    background-color: #d7e3df;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px 16px;
+    border-radius: 6px;
+    margin: 26px 0 14px 0;
+  }
+
+  .ce-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 12px;
+  }
+
+  .ce-tile {
+    display: block;
+    background-color: #f4f7f6;
+    border: 1px solid #dbe5e2;
+    border-left: 4px solid #4f8a78;
+    border-radius: 8px;
+    padding: 12px 14px;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.12s ease, box-shadow 0.12s ease, background-color 0.12s ease;
+  }
+  .ce-tile:hover, .ce-tile:focus-visible {
+    background-color: #eaf1ef;
+    box-shadow: 0 2px 8px rgba(47,106,92,0.18);
+    transform: translateY(-1px);
+    outline: none;
+  }
+
+  .ce-tile.elective { border-left-color: #8fa8a1; }
+
+  .ce-code {
+    font-weight: 700;
+    font-size: 14px;
+    color: #2f6a5c;
+    display: block;
+    margin-bottom: 3px;
+  }
+  .ce-code sup { font-size: 10px; color: #b06a2e; margin-left: 1px; }
+
+  .ce-title {
+    font-size: 13px;
+    line-height: 1.35;
+    color: #1f2d2a;
+  }
+
+  .ce-footnote {
+    font-size: 12px;
+    color: #4a5a56;
+    margin-top: 14px;
+    line-height: 1.5;
+  }
+  .ce-footnote sup { margin-right: 3px; }
+</style>
+</head>
+<body>
+
+  <p class="ce-crumb">Civil Engineering <span class="sep">/</span> Course Notebooks</p>
+
+  <div class="ce-section-bar">Required Courses</div>
+  <div class="ce-grid">
+    <a class="ce-tile" href="#">
+      <span class="ce-code">CE 212</span>
+      <span class="ce-title">Introduction to Engineering Design</span>
+    </a>
+    <a class="ce-tile" href="#">
+      <span class="ce-code">CE 301</span>
+      <span class="ce-title">Engineering Geomatics</span>
+    </a>
+    <a class="ce-tile" href="#">
+      <span class="ce-code">CE 305</span>
+      <span class="ce-title">Construction Planning &amp; Management</span>
+    </a>
+    <a class="ce-tile" href="#">
+      <span class="ce-code">CE 310</span>
+      <span class="ce-title">Geotechnical Engineering I: Soil Mechanics</span>
+    </a>
+    <a class="ce-tile" href="#">
+      <span class="ce-code">CE 320</span>
+      <span class="ce-title">Structural Analysis</span>
+    </a>
+    <a class="ce-tile" href="#">
+      <span class="ce-code">CE 330</span>
+      <span class="ce-title">Water Resources Engineering I</span>
+    </a>
+    <a class="ce-tile" href="#">
+      <span class="ce-code">CE 340</span>
+      <span class="ce-title">Introduction to Environmental Engineering</span>
+    </a>
+    <a class="ce-tile" href="#">
+      <span class="ce-code">CE 441<sup>a</sup></span>
+      <span class="ce-title">Reinforced Concrete Design</span>
+    </a>
+    <a class="ce-tile" href="#">
+      <span class="ce-code">CE 442<sup>a</sup></span>
+      <span class="ce-title">Steel Design</span>
+    </a>
+    <a class="ce-tile" href="#">
+      <span class="ce-code">CE 490</span>
+      <span class="ce-title">Civil Engineering Senior Design</span>
+    </a>
+  </div>
+  <p class="ce-footnote"><sup>a</sup>Civil Engineering majors are required to complete either CE 441 or CE 442. The course not taken to fulfill this requirement can be taken as a Professional Elective.</p>
+
+  <div class="ce-section-bar">Professional Electives</div>
+  <div class="ce-grid">
+    <a class="ce-tile elective" href="#">
+      <span class="ce-code">CE 304</span>
+      <span class="ce-title">Introduction to Scheduling &amp; Estimating</span>
+    </a>
+    <a class="ce-tile elective" href="#">
+      <span class="ce-code">CE 315<sup>b</sup></span>
+      <span class="ce-title">Geology for Engineers</span>
+    </a>
+    <a class="ce-tile elective" href="#">
+      <span class="ce-code">CE 316<sup>b</sup></span>
+      <span class="ce-title">Earth's Dynamic Climate: Science &amp; Impacts</span>
+    </a>
+    <a class="ce-tile elective" href="#">
+      <span class="ce-code">CE 317<sup>b</sup></span>
+      <span class="ce-title">Geologic Hazards</span>
+    </a>
+    <a class="ce-tile elective" href="#">
+      <span class="ce-code">CE 380</span>
+      <span class="ce-title">Fundamentals of Environmental Engineering</span>
+    </a>
+    <a class="ce-tile elective" href="#">
+      <span class="ce-code">CE 404</span>
+      <span class="ce-title">Applications in Scheduling &amp; Estimating</span>
+    </a>
+    <a class="ce-tile elective" href="#">
+      <span class="ce-code">CE 406</span>
+      <span class="ce-title">Infrastructure Construction</span>
+    </a>
+    <a class="ce-tile elective" href="#">
+      <span class="ce-code">CE 408</span>
+      <span class="ce-title">Building Information Modeling &amp; Integrated Project Delivery</span>
+    </a>
+    <a class="ce-tile elective" href="#">
+      <span class="ce-code">CE 409</span>
+      <span class="ce-title">Fundamentals of Building Systems</span>
+    </a>
+    <a class="ce-tile elective" href="#">
+      <span class="ce-code">CE 410</span>
+      <span class="ce-title">Sustainable Infrastructure &amp; Building</span>
+    </a>
+    <a class="ce-tile elective" href="#">
+      <span class="ce-code">CE 411</span>
+      <span class="ce-title">Construction Materials Engineering</span>
+    </a>
+    <a class="ce-tile elective" href="#">
+      <span class="ce-code">CE 415</span>
+      <span class="ce-title">Foundations, Stability &amp; Retaining Structures</span>
+    </a>
+    <a class="ce-tile elective" href="#">
+      <span class="ce-code">CE 419</span>
+      <span class="ce-title">Applied Geophysics</span>
+    </a>
+    <a class="ce-tile elective" href="#">
+      <span class="ce-code">CE 420</span>
+      <span class="ce-title">Computational Methods of Structural Analysis</span>
+    </a>
+    <a class="ce-tile elective" href="#">
+      <span class="ce-code">CE 430</span>
+      <span class="ce-title">Water Resources Engineering II</span>
+    </a>
+    <a class="ce-tile elective" href="#">
+      <span class="ce-code">CE 433</span>
+      <span class="ce-title">Human Exposure Analysis</span>
+    </a>
+    <a class="ce-tile elective" href="#">
+      <span class="ce-code">CE 434</span>
+      <span class="ce-title">Sustainable Development Engineering</span>
+    </a>
+    <a class="ce-tile elective" href="#">
+      <span class="ce-code">CE 435</span>
+      <span class="ce-title">Groundwater Hydrology &amp; Geochemistry</span>
+    </a>
+    <a class="ce-tile elective" href="#">
+      <span class="ce-code">CE 448</span>
+      <span class="ce-title">Introduction to Architectural Engineering</span>
+    </a>
+    <a class="ce-tile elective" href="#">
+      <span class="ce-code">CE 452</span>
+      <span class="ce-title">Advanced Strength of Materials</span>
+    </a>
+    <a class="ce-tile elective" href="#">
+      <span class="ce-code">CE 453</span>
+      <span class="ce-title">Properties &amp; Performance of Concrete Materials</span>
+    </a>
+    <a class="ce-tile elective" href="#">
+      <span class="ce-code">CE 461</span>
+      <span class="ce-title">Transportation Systems Design</span>
+    </a>
+    <a class="ce-tile elective" href="#">
+      <span class="ce-code">CE 469</span>
+      <span class="ce-title">Watershed Analysis</span>
+    </a>
+    <a class="ce-tile elective" href="#">
+      <span class="ce-code">CE 470</span>
+      <span class="ce-title">River Restoration</span>
+    </a>
+    <a class="ce-tile elective" href="#">
+      <span class="ce-code">CE 474</span>
+      <span class="ce-title">Ecohydraulics</span>
+    </a>
+    <a class="ce-tile elective" href="#">
+      <span class="ce-code">CE 477</span>
+      <span class="ce-title">Atmospheric Chemistry</span>
+    </a>
+    <a class="ce-tile elective" href="#">
+      <span class="ce-code">CE 478</span>
+      <span class="ce-title">Solid Waste Management &amp; Landfill Design</span>
+    </a>
+    <a class="ce-tile elective" href="#">
+      <span class="ce-code">CE 479</span>
+      <span class="ce-title">Water &amp; Wastewater Treatment Design</span>
+    </a>
+    <a class="ce-tile elective" href="#">
+      <span class="ce-code">CE 481</span>
+      <span class="ce-title">Hazardous Waste Management Engineering</span>
+    </a>
+    <a class="ce-tile elective" href="#">
+      <span class="ce-code">CE 482</span>
+      <span class="ce-title">Environmental Systems Analysis Design</span>
+    </a>
+    <a class="ce-tile elective" href="#">
+      <span class="ce-code">CE 486</span>
+      <span class="ce-title">Industrial Ecology</span>
+    </a>
+    <a class="ce-tile elective" href="#">
+      <span class="ce-code">CE 487</span>
+      <span class="ce-title">Environmental Engineering Laboratory</span>
+    </a>
+  </div>
+  <p class="ce-footnote"><sup>b</sup>Civil Engineering majors can use CE 315, CE 316, or CE 317 to satisfy the Basic Science Elective requirement. The courses not taken to fulfill this requirement can be taken as a Professional Elective.</p>
+
+</body>
+</html>
